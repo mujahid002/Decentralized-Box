@@ -35,7 +35,7 @@ import "./UploadFile.css"; // Import CSS file for styling
         try {
             // Call the 'add' function on the smart contract with the account and IPFS URL of the uploaded file
             await contract.add(account, `https://gateway.pinata.cloud/ipfs/${hash}`);
-            console.log("Successfully added file to contract"); // Log a success message to the console
+            console.log("Successfully added file"); // Log a success message to the console
           } catch (e) {
               console.error(e); // Log any errors to the console
       throw new Error("Unable to add file hash to contract"); // Throw an error if adding the file hash to the contract fails
