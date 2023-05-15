@@ -1,0 +1,95 @@
+.top {
+  margin: 40px;
+  }
+*{
+  color: #000000;
+}
+  /* Hide file input element */
+  input[type="file"] {
+  display: none;
+  }
+  
+  /* Style the "Choose File" button */
+  .choose {
+  background-color: #5aff15;
+  background-image: linear-gradient(-180deg, #5aff15, #00b712);
+  color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 6px;
+  margin-right: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  }
+  
+  .choose:hover {
+  background-color: #00b712;
+  box-shadow: rgba(253, 76, 0, 0.5) 0 3px 8px;
+  }
+
+  
+  /* Style the upload button */
+  .upload {
+  border: 1px solid #13aa52;
+  background-color: #13aa52;
+  color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 6px;
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  }
+  
+  .upload:hover {
+  background-color: #98e0b4;
+  border: 1px solid #000000;
+  color: #ffffff;
+  box-shadow: rgba(154, 163, 154, 0.5) 0 3px 8px;
+  }
+  
+  /* Disable the upload button when necessary */
+  .upload:disabled,
+  .upload[disabled] {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+  }
+  .cancel:disabled,
+  .cancel[disabled] {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+  }
+  
+  /* Add some padding to all div elements */
+  div {
+  padding: 5px 10px;
+  }
+
+  .cancel {
+    border: 1px solid #13aa52;
+  background-color: #dd1818;
+  color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 6px;
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  }
+  
+  .cancel:hover {
+    background-color: #d06363;
+    border: 1px solid #000000;
+    color: #ffffff;
+    box-shadow: rgba(66, 65, 64, 0.5) 0 3px 8px; 
+  }
+  
+  
